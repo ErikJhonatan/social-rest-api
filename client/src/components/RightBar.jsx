@@ -18,7 +18,7 @@ function RightBar(props) {
 
 
   return (
-    <div className={`right-bar-app ${props.className} overflow-y-auto sticky right-0`}
+    <div className={`right-bar-app bg-base-200 ${props.className} overflow-y-auto sticky right-0`}
       style={{
         top: `${topBarOffsetWidth}px`
       }}

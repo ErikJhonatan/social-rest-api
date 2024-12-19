@@ -1,7 +1,7 @@
 import Topbar from "../components/Topbar";
 import Sidebar from "../components/Sidebar";
 import Feed from "../components/Feed";
-import Rightbar from "../components/Rightbar";
+import LIstFriends from "../components/LIstFriends";
 import ImgFrontPage from "/post/3.jpeg";
 
 function Profile(){
@@ -52,7 +52,8 @@ function Profile(){
                User friends
               */}
               <div className="mt-4 bg-white p-4 rounded-lg shadow">
-                
+                <h1 className="text-xl font-bold">Amigos</h1>
+                <LIstFriends />
               </div>
             </div>
           </div>
